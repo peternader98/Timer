@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hour_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hours"
+        android:textSize="20sp"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="40px"
+        android:layout_marginBottom="30px"
+        android:layout_marginLeft="10px"/>
+
+    <EditText
+        android:id="@+id/hour_et"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:layout_toRightOf="@id/hour_tv"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="45px"/>
+
+    <TextView
+        android:id="@+id/minute_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minutes"
+        android:textSize="20sp"
+        android:layout_below="@id/hour_tv"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="45px"
+        android:layout_marginLeft="10px"/>
+
+    <EditText
+        android:id="@+id/minute_et"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:layout_toRightOf="@id/minute_tv"
+        android:layout_margin="10px"
+        android:layout_below="@id/hour_et"/>
+
+    <TextView
+        android:id="@+id/second_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seconds"
+        android:textSize="20sp"
+        android:layout_margin="10px"
+        android:layout_below="@id/minute_tv"/>
+
+    <EditText
+        android:id="@+id/second_et"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:layout_toRightOf="@id/second_tv"
+        android:layout_margin="10px"
+        android:layout_below="@id/minute_et"/>
+
+</RelativeLayout>

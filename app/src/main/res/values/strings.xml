@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="add_time">Add timer</string>
+    <string name="set_time">Set time</string>
+    <string name="counter">Count</string>
+    <string name="stop">Stop</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+</resources>
